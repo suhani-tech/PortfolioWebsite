@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(7, 49, 49);
+    margin-right: 28%;
+}
+h1{
+    font-style: italic;
+}
+.container
+{
+    width: 360px;
+    padding: 33px;
+    text-align: center;
+    background-color: bisque;
+    border-radius:20px;
+    margin-left: 33%;
+    margin-top: 50px;
+}
+input{
+    width: 270px;
+    padding: 8px;
+    border: 2px solid rgb(6,145,145);
+    border-radius: 10px;
+    outline: none; 
+    font-size: 19px;
+}
+
+button{
+    width: 60px;
+    height:41px;
+    background-color: rgb(4,29,29);
+    color: white;
+    border:none;
+    cursor: pointer;
+    outline:none;
+    border-radius:10px;
+    font-size: 19px;
+}
+ button:hover {
+    background-color: #111;
+  }
+ .active {
+    background-color: #4CAF50;
+  } 
+  ol {
+    list-style-type: style text;
+    padding: 0;
+    border: 0px solid #ddd;
+  }
+  
+  ol li {
+    padding: 8px 16px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  ol li:last-child {
+    border-bottom: none
+  }
+  /* ol > li {
+    align-content: center;
+    display: flex;
+    margin: 5px 0;
+    padding-left: 1em;
+    text-indent: -1em;
+  } */
+
+.text ol{
+    position:relative;
+    background-color: rgb(38, 142, 142);
+    border-inline-start-width: 30px;
+    border-inline-start-color: rgb(116, 148, 200);
+    border-radius:10px;
+    color: white;
+    font-size:19px;
+    padding: 0px;
+    text-align: left;
+}
+
+.text ol i{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+ 
